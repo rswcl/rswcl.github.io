@@ -1,0 +1,187 @@
+
+			body{
+				background: #E0EAFC;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                background-repeat: no-repeat;
+			}
+			.container,
+			.container-fluid,
+			.container-xxl,
+			.container-xl,
+			.container-lg,
+			.container-md,
+			.container-sm {
+			  width: 100%;
+			  padding-right: var(--bs-gutter-x, 0.75rem);
+			  padding-left: var(--bs-gutter-x, 0.75rem);
+			  margin-right: auto;
+			  margin-left: auto;
+			}
+			.wrap{
+				margin: 0;
+				padding: 0;
+				position: relative;
+				width: 100%;
+				background: #a8c0ff;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			    z-index: 0;
+			
+			}
+			.wrap a{
+				color: #F0FFFF;
+				text-decoration: none;
+			}
+			.wrap a:hover{
+				color: #DFE0E1;
+			}
+			.wrap .phone {
+				z-index: 1;
+			}
+			.wrap .phone span{
+				color: #F0FFFF;
+			}
+
+			.card1 {
+				width: 250px;
+				height: 300px;
+				background-color: aliceblue;
+				border-radius: 5%;
+				display: inline-block;
+				margin-right: 10px;
+			}
+
+			.card2 {
+				width: 240px;
+				height: 300px;
+				background-color: aliceblue;
+				border-radius: 5%;
+				display: inline-block;
+			}
+
+			.mainbody
+			{
+				display: flex;
+			    justify-content: center;
+			}
+
+			.main1:hover {
+				box-shadow: 0px 1.5rem 1.8rem rgba(0, 0, 0, 20%);
+			}
+			.img1,
+			.img2{
+				width: 30px;
+				height: 30px;
+				background-size: contain;
+			    margin-top: 5px;
+				margin-left: 15%;
+				margin-right: 2px;
+			}
+			
+		    h3{
+				display: inline-block;
+				text-align: center;
+				margin-bottom: 1px;
+			}
+			h5{
+				font-weight: 400;
+				color: black;
+				margin-bottom: 2px;
+			}
+			.bread{
+			display: inline-block;
+			font-size: 14px;
+			}
+			.bread2{
+				font-size: 14px;
+				text-decoration: none;
+				display: inline-block;
+				
+				color: #000000;
+				
+			}
+			.bread2:hover{
+				color: #F8F7F7;
+			}
+			.step2{
+				display: block;
+				background-color: #F0FFFF;
+				margin-left: 20%;
+				height:300px;
+				width:800px
+			}
+			.foot {
+				width: 1200px;
+				clear: left;
+				background-color: rgba(0, 0, 0, 1.00);
+				margin-top: 10px;
+				color: rgba(251, 247, 247, 1.00);
+				padding-top: 1%;
+				padding-right: 2%;
+				padding-bottom: 5%;
+				padding-left: 2%;
+				margin-right: 10px;
+				margin-bottom: 10px;
+				margin-left: 10px;
+				font-family: "楷体", "隶书", "宋体", "微软雅黑", "新宋体", "站酷酷黑", "华文行楷", "华文宋体", "黑体", "方正舒体", "等线", "仿宋";
+				text-align: left;
+			}
+			
+			.f0 {
+				font-size: small;
+			}
+			body hr {
+				color: rgba(247, 241, 241, 1.00);
+			}
+			.step3{
+				margin-top: 5%;
+				width:800px;
+				height:200px;
+			}
+			.list{
+				display: flex;
+				flex-direction: row;
+			}
+			.i1{
+				width:40px;
+				inline-block;
+			}
+			.i2
+			{
+				width:150px;
+				display: inline-block;
+				margin-right: 10px;
+			}
+			.community{
+				background-color: whitesmoke;
+			}
+			h2{
+			text-align: center;
+			}
+			
+			.model,
+			.model2{
+				width:70px;
+				height: 70px;
+				display: inline-block;
+			}
+			.upload{
+				text-align: center;
+				display: block;
+			}
+			
+			#folder{
+				background-image: url(background/文件夹.png);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+				margin-left: 50%;
+				height:18px;
+				width:18px;
+			}
+			#tips{
+				text-align: center;
+				padding-top: 5%;
+				color: darkgray;
+			}
