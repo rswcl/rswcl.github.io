@@ -15,55 +15,56 @@
 		<link rel="stylesheet" type="text/css" href="my.css" />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 		<link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/features/">
-
+		<link rel="stylesheet" href="styles.css">
 		<style>
 			#page-wrapper {
 				width: 100%;
 				!important
 			}
+			body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.photo-slider {
+  width: 80%;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slider-container {
+  display: flex;
+  width: max-content;
+  animation: scroll 10s linear infinite;
+}
+
+.slider-container img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* 滚动动画 */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
 		</style>
 
-		 <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/swiper.css">
-    <link rel="stylesheet" href="iconfont/iconfont.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/lib.js"></script>
-    <script src="js/flex.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script type="text/javascript">
-        var show_main_id = '12708';
-        
-        $(function() {
-            $(".menu a").each(function(i){
-                c_str = $(this).attr("href").match(/classid=\d+/);
-                if( c_str != null ){
-                    eval(c_str[0]);
-                    if ( show_main_id == classid){
-                        $(this).addClass("slt");
-                    }
-                }
-                if($(this).attr("m") != null ){
-                    if($(this).attr("m") == show_main_id){
-                        $(this).addClass("slt");
-                    }
-                }
-                if(location.href.indexOf($(this).attr("href")) >-1){
-                    $(this).addClass("slt");
-                }
-            });
-
-        })
-        
-    </script>
-<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
-<script language="javascript" src="_sitegray/_sitegray.js"></script>
-<link rel="stylesheet" type="text/css" href="index.vsb.css" />
-<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" devices="pc|mobile|pad"></script>
-<script type="text/javascript" src="/system/resource/js/counter.js"></script>
-<script type="text/javascript">_jsq_(1354,'/index.jsp',-1,1776120652)</script>
+	
 	</head>
 
 	<body class="html front not-logged-in  page-home og-context og-context-node og-context-node-599 navbar-on">
@@ -197,54 +198,19 @@
 													</div>
 												</section>
 
-												        <div class="index-banner">    <script language="javascript" src="/system/resource/js/dynclicks.js"></script><div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                  
-<a class="swiper-slide" onclick="_addDynClicks(&#34;wbimage&#34;, 1776120652, 1010952)" title="喜报！李博峰教授荣获2024年上海市科技进步奖一等奖" href="https://celiang.tongji.edu.cn/info/1204/4141.htm" target="_blank" style="background-image: url(images/BF-Libanner.jpg);">
-                        <div class="_title clamp _1">喜报！李博峰教授荣获2024年上海市科技进步奖一等奖</div>
-                  </a>
-                  
-<a class="swiper-slide" onclick="_addDynClicks(&#34;wbimage&#34;, 1776120652, 1010834)" title="" target="_blank" style="background-image: url(images/Image_20240908163318.jpg);">
-                        <div class="_title clamp _1"></div>
-                  </a>
-                  
-<a class="swiper-slide" onclick="_addDynClicks(&#34;wbimage&#34;, 1776120652, 1010822)" title="你好，新同济测绘人！丨2024级本科生迎新活动圆满举行" href="https://mp.weixin.qq.com/s/QYjUClS9v-68pjqdQ3uWbg" target="_blank" style="background-image: url(images/Cover_20240903213337.jpg);">
-                        <div class="_title clamp _1">你好，新同济测绘人！丨2024级本科生迎新活动圆满举行</div>
-                  </a>
-                  
-<a class="swiper-slide" onclick="_addDynClicks(&#34;wbimage&#34;, 1776120652, 1010812)" title="同济大学-香港理工大学“智慧城市技术与实践”暑期学校圆满落幕" href="https://mp.weixin.qq.com/s/FKMBflxUOPp_lB5xDVVKGA" target="_blank" style="background-image: url(images/Image_20240831212358-1.jpg);">
-                        <div class="_title clamp _1">同济大学-香港理工大学“智慧城市技术与实践”暑期学校圆满落幕</div>
-                  </a>
-                  
-<a class="swiper-slide" onclick="_addDynClicks(&#34;wbimage&#34;, 1776120652, 1010788)" title="2024年测绘学院师生赴韩国GeoAl and Geoinformatics暑期学校" href="https://mp.weixin.qq.com/s/gYJ-6fr64NUCgXjLsuAhjw" target="_blank" style="background-image: url(images/2024summer.jpg);">
-                        <div class="_title clamp _1">2024年测绘学院师生赴韩国GeoAl and Geoinformatics暑期学校</div>
-                  </a>
-                  
-<a class="swiper-slide" onclick="_addDynClicks(&#34;wbimage&#34;, 1776120652, 1009434)" title="风起向未来 | 同济大学测绘与地理信息学院2024届毕业典礼" href="https://mp.weixin.qq.com/s/Vc9Bhl16XGc3sR9oBFTENQ" target="_blank" style="background-image: url(images/2024biyedianli.jpg);">
-                        <div class="_title clamp _1">风起向未来 | 同济大学测绘与地理信息学院2024届毕业典礼</div>
-                  </a>
-                  
-</div>
-                <div class="swiper-pagination"></div>
-            </div>
-            <div class="box"></div>
-            
-            <script>
-        var swiper = new Swiper(".index-banner .mySwiper", {
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            autoplay: {
-                delay: 4000,
-                disableOnInteraction: false,
-            },
-            loop: true
-        });
-    </script></div>
 
 												
-												
+												<div class="photo-slider">
+    <div class="slider-container">
+      <img src="Group.png" alt="Photo 1">
+      <img src="photo2.jpg" alt="Photo 2">
+      <img src="photo3.jpg" alt="Photo 3">
+      <img src="photo4.jpg" alt="Photo 4">
+      <!-- 可以添加更多图片 -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 
 												<div module="boxes" delta="1493176130">
 													<div class="block-inner clearfix">
